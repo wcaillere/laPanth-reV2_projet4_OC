@@ -680,6 +680,17 @@ p {
     font-size: 13px;
 }
 
+blockquote {
+    border-left: 0;
+    font-size: 20px;
+    color: #575757;
+    font-style: italic;
+}
+
+.blockquote-source {
+    font-size: 20px;
+}
+
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
