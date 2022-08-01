@@ -901,6 +901,15 @@ h4 {
 }
 
 @media (max-width: 767px) {
+    a[data-lightbox] {
+        display: flex;
+        justify-content: center;
+    }
+
+    a[data-lightbox] img {
+        width: 320px;
+    }
+
     .page-container {
         overflow-x: hidden;
         position: relative;
